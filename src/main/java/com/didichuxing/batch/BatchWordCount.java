@@ -12,9 +12,14 @@ import org.apache.flink.util.Collector;
  *              go,python
  *              spark,hadoop
  *              php,php
- * 输出文件数据未：spark6,6
- *              hadoop,3
- *
+ * 输出文件有四个（对应四个subtask），内容如下
+ *              (go,1)
+ *              (php,3)
+ *              (hadoop,2)
+ *              (java,1)
+ *              (scala,1)
+ *              (python,1)
+ *              (spark,2)
  *
  *
  */
