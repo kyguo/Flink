@@ -29,6 +29,7 @@ import org.apache.flink.util.Collector;
  *      1> (spark,2)
  *      1> (java,2)
  *      1> (spark,3)
+ * 注意：本代码中未开启CheckPoint，如需使用请手动开启
  */
 
 public class KeyedGroupSumFuntion {
