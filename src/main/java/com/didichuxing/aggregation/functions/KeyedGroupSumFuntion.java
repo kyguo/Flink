@@ -14,7 +14,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
 
 /**
- * 目的：自定义实现keyBy()后的sum操作，利用KeyedState，实现每个Subtask中每个组的sum
+ * 目的：自定义实现keyBy()后的sum操作，利用KeyedState，实现每个Subtask中每个组的sum。其实可以实现远不止sum的功能，类似scala中的mapWithState
  * 输入：spark hadoop scala java python js matlab php go spark hadoop java spark
  * 输出：2> (python,1)
  *      4> (hadoop,1)
